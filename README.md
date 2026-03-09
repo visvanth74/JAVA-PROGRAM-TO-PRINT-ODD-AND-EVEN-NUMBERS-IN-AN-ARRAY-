@@ -57,10 +57,37 @@ o View output in the Console window.
 o After finishing, click File > Exit to close Eclipse IDE.
 
 ## PROGRAM:
+package dates;
+
+public class dates {
+    public static void main(String[] args) {
+        int[] numbers = {12, 45, 23, 56, 89, 34, 67, 90, 11, 22};
+        // Example array
+
+        System.out.print("Even Numbers: ");
+        for (int num : numbers) {
+            if (num % 2 == 0) {
+                System.out.print(num + " ");
+            }
+        }
+
+        System.out.println(); // For a new line
+
+        System.out.print("Odd Numbers: ");
+        for (int num : numbers) {
+            if (num % 2 != 0) {
+                System.out.print(num + " ");
+            }
+        }
+    }
+}
 
 ## OUTPUT:
+6<img width="450" height="63" alt="image" src="https://github.com/user-attachments/assets/baab52b7-24ff-44b7-aa43-5d0617c68c6a" />
+
 
 
 
 
 ## RESULT:
+Thus, the Java program to print odd and even numbers from an array has been successfully executed and the output has been verified.
